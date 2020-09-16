@@ -1,0 +1,80 @@
+/*Start section numbers*/
+.numbers{
+ position: relative;
+ background-image: url("../images/background/background2.webp");
+ background-attachment: fixed;
+ background-size: cover;
+ height: 300px;
+
+}
+.numbers-items{
+  padding: 100px 0;
+}
+.numbers-item{
+ width: 25%;
+ text-align: center;
+}
+.numbers-item .icon{
+ margin-bottom: 15px;
+}
+.numbers-item-title{
+ font-size: 30px;
+ font-weight: bold;
+ color: var(--whiteColor);
+}
+.numbers-item-text{
+ color: var(--whiteColor);
+}
+/*section pricing*/
+.pricing-item{
+ width: 30%;
+ padding: 20px 15px;
+ border:1px solid #e8e8e8e8;
+ text-align: center;
+}
+.pricing-item.mg{
+ margin: 0 5%;
+}
+.pricing-item-text{
+ font-size: 17px;
+ color: var(--grayColor);
+ transition: color 0.5s;
+}
+.pricing-item-permonth{
+ width: 130px;
+ padding: 20px 0;
+ height: 130px;
+ margin: 20px auto;
+ border-radius: 50%;
+ border:2px solid var(--mainColor);
+}
+.pricing-item-permonth .dollar{
+ font-size: 50px;
+}
+.pricing-item-permonth .month{
+ font-weight: bold;
+ font-size: 15px;
+ transition: color 0.5s;
+}
+.pricing-list{
+ list-style: none;
+}
+.pricing-list li{
+ color: var(--grayColor);
+ line-height: 1.8;
+}
+.pricing-item-purchase{
+ background: none;
+ display: block;
+ width: 140px;
+ border: 2px solid var(--mainColor);
+ padding: 10px;
+ margin: 15px auto 0 auto;
+ color: var(--mainColor);
+}
+.pricing-item:hover .pricing-item-permonth{
+ color: var(--whiteColor);
+}
+.pricing-item:hover .pricing-item-text{
+ color:var(--mainColor);
+}

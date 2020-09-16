@@ -1,0 +1,115 @@
+/*
+1-Comman Styles
+2-General Styles
+3-Sections
+   3.1 Home
+   3.2 About
+   3.3 Portfolio
+   3.4 Services
+   3.5 Prices
+   3.6 Team
+   3.7 Blog
+   3.8 Contact
+*/
+/*General Styles*/
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+:root{
+
+	--mainColor:#6195ff;
+	--grayColor:#999;
+	--whiteColor:#fff;
+}
+body{
+ font-family: 'Varela Round', sans-serif;
+}
+.clear{
+ clear: both;
+}
+.container{
+ width: 80%;
+ margin: auto;
+}
+.overlay{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width:100%;
+ height: 100%;
+ background-color: rgba(0,0,0,0.7);
+}
+.opacity-hover{
+ transition: opacity 0.5s;
+}
+.opacity-hover:hover{
+ opacity: 0.8
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: montserrat,sans-serif;
+}
+button{
+ font-family: inherit;
+}
+a{
+ text-decoration: none;
+}
+.pdy{
+ padding: 120px 0;
+}
+.section-header{
+text-align: center;
+}
+.section-title{
+ font-size:35px;
+}
+.section-line{
+ display: block;
+ margin:0 auto 70px auto;
+ width: 60px;
+ height: 5px;
+ background-color: var(--mainColor);
+}
+.ltr-effect,.tb-effect{
+ position: relative;
+}
+.ltr-effect:after,
+.tb-effect:after
+{
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-color: #333;
+ z-index: -1;
+ 
+}
+.ltr-effect:after
+{
+width: 0;
+height: 100%;
+transition: width 0.5s;
+}
+.ltr-effect:hover:after{
+ width:100%;
+}
+.tb-effect:after{
+ width: 100%;
+ height: 0;
+ transition: height 0.5s;
+}
+.tb-effect:hover:after{
+ height:100%;
+}
+ul{
+	list-style: none;
+}
+
+
+
+
+
+
+

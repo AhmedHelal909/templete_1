@@ -1,0 +1,96 @@
+/*blog section */
+.blog-content{
+ background-color: #f8f8f8;
+}
+.blog-item{
+ width: 30%;
+ background-color: var(--whiteColor);
+
+}
+.blog-item-image img{
+width: 100%;
+}
+.blog-list{
+ list-style: none;
+ margin: 10px 0;
+}
+.blog-list li{
+ display: inline-block;
+ margin: 0 5px;
+}
+.blog-list li i{
+ color:  var(--mainColor);
+}
+.blog-info{
+ padding: 20px;
+}
+.blog-title{
+ font-weight: bold;
+ margin: 20px 0;
+}
+.blog-desc{
+ color: var(--grayColor);
+ line-height: 1.5;
+}
+.blog-link{
+ color:  var(--mainColor);
+}
+.blog-item.mg{
+ margin: 0 5%;
+}
+/*Contact section*/
+.contact-item{
+ width: 30%;
+ text-align: center;
+}
+.contact-item i{
+ color:  var(--mainColor);
+}
+.contact-desc{
+ color: var(--grayColor);
+}
+.form{
+ text-align: center;
+ margin-top: 20px;
+ width: 700px;
+ margin: auto;
+}
+input[type="text"]{
+ height: 30px;
+ background-color: #f9f9f9;
+ border: 0;
+padding:10px;
+}
+::placeholder{
+color: var(--grayColor);
+margin-left: 5px;
+
+}
+.form-major input{
+ margin-top: 30px;
+ width: 49%;
+}
+.form-major input:last-child{
+ margin-left: 2%;
+}
+.form > input{
+ display: block;
+ width: 100%;
+}
+textarea{
+ width: 100%;
+ height: 100px;
+background-color: #f9f9f9;
+ border: 0;
+padding:10px;
+}
+.form > button{
+ background-color: var(--mainColor);
+    color: var(--whiteColor);
+    min-width: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
